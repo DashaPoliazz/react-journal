@@ -1,0 +1,37 @@
+.menu {
+  position: fixed;
+  left: 15px;
+  top: 70px;
+
+  width: 200px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    li {
+      margin-bottom: 2px;
+
+      button {
+        font-size: 16px;
+        font-weight: 400;
+
+        display: flex;
+        justify-content: flex-start;
+
+        width: 100%;
+        padding: 10px;
+
+        text-transform: inherit;
+
+        color: grey;
+      }
+
+      svg {
+        margin-right: 10px;
+      }
+    }
+  }
+}
